@@ -1,12 +1,13 @@
 name: secrets and variables
-on: workflow_dispatch
+on: 
+ workflow_dispatch
 jobs:
   secrets:
-     run-on: ubuntu-latest
+     runs-on: ubuntu-latest
     env:
       USERNAME: Admin
       PASSWORD: Admin123
     steps: 
-      name: login database
-      run: echo "login database using password $PASSWORD and username $USERNAME"
+       - name: login database
+         run: echo "login database using password $PASSWORD and username $USERNAME"
     
