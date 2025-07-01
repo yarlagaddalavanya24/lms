@@ -1,9 +1,8 @@
 name: secrets and variables
-on: 
-  workflow_dispatch
+on: workflow_dispatch
 jobs:
   secrets:
-     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     env:
       USERNAME: Admin
       PASSWORD: Admin123
