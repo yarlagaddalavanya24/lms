@@ -1,6 +1,6 @@
 name: secrets and variables
 on: 
- workflow_dispatch
+  workflow_dispatch
 jobs:
   secrets:
      runs-on: ubuntu-latest
