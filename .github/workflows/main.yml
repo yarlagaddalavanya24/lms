@@ -5,9 +5,8 @@ jobs:
     env:
     USERNAME: Admin
     PASSWORD: Admin123
-  run-on: ubuntu-latest
+    run-on: ubuntu-latest
   step: 
     name: login database
-
     run: echo "login database using password $PASSWORD and username $USERNAME"
     
